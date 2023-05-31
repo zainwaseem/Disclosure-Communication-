@@ -1,0 +1,38 @@
+#bannervideo {
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+.homepagevideo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 790px) {
+  video.homepagevideo {
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.header-banner {
+  background: rgb(0, 0, 0);
+  margin-bottom: 10px;
+  position: relative;
+  color: #fff !important;
+}
+.header-banner video {
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  width: 100vw;
+  height: 100%;
+  filter: grayscale(1);
+  background-position: center center;
+  background-size: cover;
+}
