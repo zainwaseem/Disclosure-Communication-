@@ -1,6 +1,6 @@
 // import "./Banner.css";
 import { BsArrowRightShort } from "react-icons/bs";
-import clip from "../../assets/videos/Crossover Homepage.webm";
+import clip from "../../assets/videos/Disclosure Communication Homepage.webm";
 // import prj from "../../img/prj.mp4";
 import { Link } from "react-router-dom";
 const Banner = () => {

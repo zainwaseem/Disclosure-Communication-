@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./Components/Card";
 import "./Style.css";
-function Crossover() {
+function Disclosure Communication() {
   return (
     <div className="container">
       <Card />
@@ -9,4 +9,4 @@ function Crossover() {
   );
 }
 
-export default Crossover;
+export default Disclosure Communication;

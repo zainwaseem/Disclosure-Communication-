@@ -1,4 +1,4 @@
-export default CrossOverData = [{
+export default DisclosureCommunicationData = [{
     name: "Aleks Natchkebia",
     image: "./picture/Aleks-sitting-outside-with-laptop.webp",
     city: " GEORGIA",

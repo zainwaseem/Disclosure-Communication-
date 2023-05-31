@@ -16,17 +16,19 @@ const Whycrossover = () => {
             <div className="relative lg:grid lg:grid-cols-1 lg:gap-8 lg:items-center">
               <div className="ps-8 pb-8 p-5 lg:block">
                 <div className="flex justify-between  items-center">
-                  <h1 className="text-2xl font-bold">WHY CROSSOVER</h1>
+                  <h1 className="text-2xl font-bold">
+                    Disclosure Communication
+                  </h1>
                   <Link
                     to="#"
                     className="flex text-2xl font-bold justify-start items-center"
                   >
-                    OUR VISION
+                    OUR MISSION
                     <BsArrowRightShort />
                   </Link>
                 </div>
                 <h1 className="text-6xl font-normal py-3 ">
-                  Recruitment sucks. So we’re fixing it.
+Lorem ipsum dolor sit amet consectetur.
                 </h1>
                 {/*
                 <p className="text-xl">
@@ -62,57 +64,56 @@ const Whycrossover = () => {
                   <div class="flex flex-wrap -mx-1 lg:-mx-4">
                     <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
                       <article class="overflow-hidden rounded-lg ">
-                        <a href="#">
-                          <img
+                        {/* <a href="#">
+                           <img
                             alt="Placeholder"
                             class="block h-auto w-full"
                             // src="https://picsum.photos/600/400/?random"
                             src={benifits3}
-                          />
-                        </a>
+                          /> 
+                        </a> */}
 
                         <header class="flex items-center justify-between leading-tight p-2 md:p-4">
                           <p className="text-grey-darker text-sm">
-                            Our super high quality bar means it’s not easy to
-                            qualify—but every single team member is a rockstar.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, iure unde. Quod a quia quibusdam expedita necessitatibus laboriosam molestias? Omnis.
                           </p>
                         </header>
                       </article>
                     </div>
                     <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
                       <article class="overflow-hidden rounded-lg ">
-                        <a href="#">
+                        {/* <a href="#">
                           <img
                             alt="Placeholder"
                             class="block h-auto w-full"
                             src={benifits2}
                           />
-                        </a>
+                        </a> */}
 
                         <header class="flex items-center justify-between leading-tight p-2 md:p-4">
                           <p class="text-grey-darker text-sm">
-                            Over 50% of new hires double or triple their
-                            previous pay. Why? Because that’s what the best
-                            person in the world is worth.
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Explicabo aliquam voluptates quod corrupti
+                            numquam, dicta porro? Quam dolores ipsam amet!
                           </p>
                         </header>
                       </article>
                     </div>
                     <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
                       <article class="overflow-hidden rounded-lg ">
-                        <a href="#">
+                        {/* <a href="#">
                           <img
                             alt="Placeholder"
                             class="block h-auto w-full"
                             src={benifits1}
                           />
-                        </a>
+                        </a> */}
 
                         <header class="flex items-center justify-between leading-tight p-2 md:p-4">
                           <p class="text-grey-darker text-sm">
-                            We don’t care where you went to school, what color
-                            your hair is, or whether we can pronounce your name.
-                            Just prove you’ve got the skills.
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Labore cum pariatur totam necessitatibus quo
+                            voluptas fugiat nesciunt neque saepe soluta?
                           </p>
                         </header>
                       </article>

@@ -5,7 +5,7 @@ import { BsArrowRightShort } from "react-icons/bs"
 const CompanySlider = () => {
   return (
     <>
-      <div className="container px-12 headtext w-full ">
+      <div className="container px-12 headtext w-full py-12 ">
         <div className="clients flex justify-between px-12">
           <h1 className="font-medium text-2xl text-greenish">OUR CLIENTS</h1>
           <Link to="#" className="flex items-center uppercase hover:text-greenish">
@@ -14,8 +14,7 @@ const CompanySlider = () => {
           </Link>
         </div>
         <p className="text-3xl px-12 text-gray font-extralight">
-          Rapidly growing companies who recognize how valuable it is to
-          exclusively staff with stars.
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum laborum aperiam laboriosam illo ipsum eveniet nulla quae magni doloribus ratione.
         </p>
         {/* <Button btnText= /> */}
       </div>

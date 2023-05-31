@@ -11,7 +11,7 @@ const Work = () => {
         </div> */}
         <div class="w-full md:w-1/2 lg:w-1/4 pl-5 pr-5 mb-5 lg:pl-2 lg:pr-2">
           <div class=" rounded-lg m-h-64 p-2 transform hover:translate-y-2  transition duration-300">
-            <h1 className="text-7xl text-center" style={{ color: "#81D9CD" }}>
+            <h1 className="text-7xl text-center text-bluee text-bluee">
               TOP 1%
             </h1>
             <p className="text-center">OF GLOBAL TALENT</p>
@@ -19,26 +19,19 @@ const Work = () => {
         </div>
         <div class="w-full md:w-1/2 lg:w-1/4 pl-5 pr-5 mb-5 lg:pl-2 lg:pr-2">
           <div class=" rounded-lg max-h-52 p-2 transform hover:translate-y-2  transition duration-300">
-            <h1 className="text-7xl text-center" style={{ color: "#7072e4" }}>
-              530+
-            </h1>
+            <h1 className="text-7xl text-center text-bluee">530+</h1>
             <p className="text-center">COUNTRIES</p>
           </div>
         </div>
         <div class="w-full md:w-1/2 lg:w-1/4 pl-5 pr-5 mb-5 lg:pl-2 lg:pr-2">
           <div class=" rounded-lg m-h-64 p-2 transform hover:translate-y-2  transition duration-300">
-            <h1 className="text-7xl text-center" style={{ color: "#6477e7" }}>
-              11M+
-            </h1>
+            <h1 className="text-7xl text-center text-bluee">11M+</h1>
             <p className="text-center">ACCOUNTS CREATED</p>
           </div>
         </div>
         <div class="w-full md:w-1/2 lg:w-1/4 pl-5 pr-5 mb-5 lg:pl-2 lg:pr-2">
           <div class=" rounded-lg m-h-64 p-2 transform hover:translate-y-2  transition duration-300">
-            <h1
-              className="text-7xl text-center font-light"
-              style={{ color: "#81D9CD" }}
-            >
+            <h1 className="text-7xl text-center font-light text-bluee">
               9,000+
             </h1>
             <p className="text-center">ROCKSTARS RECRUITED</p>
