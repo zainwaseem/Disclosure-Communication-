@@ -15,7 +15,7 @@ const BlogCards = () => {
         </div>
       </div>
 
-      <div class="p-20 ">
+      <div class="p-6 lg:p-20">
         {/* <h3 class="text-orange-400 font-bold mb-4">
           3. Horizontal &amp; Responsive Card
         </h3> */}
@@ -30,11 +30,25 @@ const BlogCards = () => {
               Lorem ipsum dolor sit amet.
             </h2>
             <p class="">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-              blanditiis atque provident sequi, ad eos illum magnam maxime!
-              Possimus eveniet laborum repellendus corrupti, error excepturi
-              iure officiis natus eos quidem iste deleniti maxime ea molestias
-              animi sed rerum magnam blanditiis.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+              quibusdam ad eligendi unde voluptatibus officia laudantium soluta
+              ipsam tempore harum maiores corrupti sed quos natus officiis, odio
+              vel hic ut esse exercitationem? Incidunt, pariatur hic ex odio
+              praesentium harum saepe debitis recusandae corrupti perspiciatis
+              velit quibusdam doloribus itaque, repudiandae perferendis
+              consequuntur quis nesciunt. Deserunt impedit cupiditate fugit,
+              dignissimos architecto officia quos, magnam aperiam maiores ad aut
+              ab accusantium inventore tenetur veniam nisi quisquam repudiandae
+              ipsam molestiae molestias nostrum temporibus? Beatae deserunt
+              aperiam illum similique qui inventore corrupti magni, quo deleniti
+              necessitatibus? Commodi est, amet nostrum eum libero voluptatum
+              laborum excepturi exercitationem voluptatibus magni quidem odio
+              incidunt eaque molestiae molestias consequatur? Laudantium
+              perspiciatis ipsam doloremque ea quas error possimus debitis?
+              Deleniti corporis alias iste, voluptatibus vel sed explicabo nihil
+              eius quisquam nostrum eligendi aut quos dolorem ex, modi fugit
+              cumque incidunt fugiat amet! Consequatur provident modi
+              praesentium, nobis excepturi vitae tempora.
             </p>
             <a
               href="#"
@@ -47,8 +61,8 @@ const BlogCards = () => {
         </div>
       </div>
 
-      <div className="flex">
-        <div class="p-20  w-full md:w-1/2">
+      <div className="flex flex-col lg:flex-row">
+        <div class="p-20 p-6 lg:p-20  w-full md:w-1/2">
           <h3 class=" font-bold  text-[#1A3551] text-2xl mb-4">
             Lorem ipsum dolor sit amet.
           </h3>
@@ -79,7 +93,7 @@ const BlogCards = () => {
             </div>
           </div>
         </div>
-        <div class="p-20  w-full md:w-1/2">
+        <div class=" p-6 lg:p-20  w-full md:w-1/2">
           <h3 class=" font-bold  text-[#1A3551] text-2xl mb-4">
             Lorem ipsum dolor sit amet.
           </h3>
@@ -111,8 +125,8 @@ const BlogCards = () => {
           </div>
         </div>
       </div>
-      <div className="flex">
-        <div class="p-20  w-full md:w-1/2">
+      <div className="flex flex-col lg:flex-row">
+        <div class=" p-6 lg:p-20 w-full md:w-1/2">
           <h3 class="font-bold  text-[#1A3551] text-2xl mb-4">
             Lorem ipsum dolor sit amet.
           </h3>
@@ -143,7 +157,7 @@ const BlogCards = () => {
             </div>
           </div>
         </div>
-        <div class="p-20  w-full md:w-1/2">
+        <div class=" p-6 lg:p-20 w-full md:w-1/2">
           <h3 class=" font-bold  text-[#1A3551] text-2xl mb-4">
             Lorem ipsum dolor sit amet.
           </h3>

@@ -7,7 +7,7 @@ export default function DataCard() {
         {CrossOverheading.map((val, index) => {
           return (
             <span key={index}>
-              <div className=" ">
+              <div className=" py-6 my-2 ">
                 {/* <span className="relative z-10 text-[#1A3551] rounded-full  px-3 py-1.5 font-medium ">
                   INSIGHTS ON
                 </span> */}
@@ -18,7 +18,7 @@ export default function DataCard() {
                   {val.discription}
                 </p>
               </div>
-              <div className="mx-auto  grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16  pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3  hover:border-gray-400">
+              <div className="mx-auto  grid max-w-2xl grid-cols-1 gap-x-4 gap-y-16 sm:mt-4 sm:pt-2 lg:mx-0 lg:max-w-none lg:grid-cols-3  hover:border-gray-400">
                 {CrossOverData.map(
                   (post) =>
                     post.topic === val.topic && (

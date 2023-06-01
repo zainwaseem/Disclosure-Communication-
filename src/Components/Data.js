@@ -70,7 +70,8 @@ export const CrossOverData = [
   {
     topic: "Career Paths",
     name: "Lethícia Mares",
-    image: "./picture/1.avif",
+    image:
+      "https://images.unsplash.com/photo-1459180129673-eefb56f79b45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=873&q=80",
     city: "BRAZIL",
     area: "DIVINÓPOLIS",
     jobtitle: "L2 PROFESSIONAL SERVICES CONSULTANT, IGNITETECH",
@@ -79,7 +80,8 @@ export const CrossOverData = [
   {
     topic: "Technology",
     name: "Maria Hernandez",
-    image: "./picture/2.avif",
+    image:
+      "https://images.unsplash.com/photo-1662010021854-e67c538ea7a9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=352&q=80",
     city: "SPAIN",
     area: "MADRID",
     jobtitle: "SOFTWARE ENGINEER, TECHCORP",
@@ -88,7 +90,8 @@ export const CrossOverData = [
   {
     topic: "Technology",
     name: "Maria Hernandez",
-    image: "./picture/2.avif",
+    image:
+      "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
     city: "SPAIN",
     area: "MADRID",
     jobtitle: "L2 PROFESSIONAL SERVICES CONSULTANT, IGNITETECH",
@@ -98,7 +101,8 @@ export const CrossOverData = [
   {
     topic: "Technology",
     name: "Maria Hernandez",
-    image: "./picture/3.avif",
+    image:
+      "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
     city: "SPAIN",
     area: "MADRID",
     jobtitle: "SOFTWARE ENGINEER, TECHCORP",
@@ -107,7 +111,8 @@ export const CrossOverData = [
   {
     topic: "Technology",
     name: "Maria Hernandez",
-    image: "./picture/4.avif",
+    image:
+      "https://images.unsplash.com/photo-1586473219010-2ffc57b0d282?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80",
     city: "SPAIN",
     area: "MADRID",
     jobtitle: "SOFTWARE ENGINEER, TECHCORP",
@@ -116,7 +121,8 @@ export const CrossOverData = [
   {
     topic: "Technology",
     name: "Maria Hernandez",
-    image: "./picture/5.avif",
+    image:
+      "https://images.unsplash.com/photo-1586473219010-2ffc57b0d282?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80",
     city: "SPAIN",
     area: "MADRID",
     jobtitle: "SOFTWARE ENGINEER, TECHCORP",
@@ -125,7 +131,8 @@ export const CrossOverData = [
   {
     topic: "Career Paths",
     name: "Lethícia Mares",
-    image: "./picture/6.avif",
+    image:
+      "https://images.unsplash.com/photo-1586473219010-2ffc57b0d282?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80",
 
     city: " BRAZIL",
     area: " DIVINÓPOLIS",
@@ -134,7 +141,8 @@ export const CrossOverData = [
   },
   {
     topic: "Career Paths",
-    image: "./picture/7.avif",
+    image:
+      "https://images.unsplash.com/photo-1586473219010-2ffc57b0d282?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80",
     area: " TBILISI",
     city: " GEORGIA",
     jobtitle: " STRATEGIC ANALYST, TRILOGY",
@@ -152,7 +160,8 @@ export const CrossOverData = [
   },
   {
     topic: "Career Paths",
-    image: "./picture/1.avif",
+    image:
+      "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=874&q=80",
     area: " SOUTH CAROLINA ",
     city: " UNITED STATES",
     jobtitle: "  REMOTE COACH, GT.SCHOOL",
@@ -162,7 +171,8 @@ export const CrossOverData = [
   {
     topic: "Entrepreneurship",
     name: "John Smith",
-    image: "./picture/1.avif",
+    image:
+      "https://images.unsplash.com/photo-1598257006626-48b0c252070d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
     city: "USA",
     area: "SAN FRANCISCO",
     jobtitle: "FOUNDER & CEO, TECHSTARTUP",
@@ -171,7 +181,8 @@ export const CrossOverData = [
   {
     topic: "Entrepreneurship",
     name: "John Smith",
-    image: "./picture/1.avif",
+    image:
+      "https://images.unsplash.com/photo-1549923746-c502d488b3ea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80",
     city: "USA",
     area: "SAN FRANCISCO",
     jobtitle: "FOUNDER & CEO, TECHSTARTUP",
@@ -180,7 +191,8 @@ export const CrossOverData = [
   {
     topic: "Entrepreneurship",
     name: "John Smith",
-    image: "./picture/1.avif",
+    image:
+      "https://images.unsplash.com/photo-1518893494013-481c1d8ed3fd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
     city: "USA",
     area: "SAN FRANCISCO",
     jobtitle: "FOUNDER & CEO, TECHSTARTUP",
@@ -189,7 +201,8 @@ export const CrossOverData = [
   {
     topic: "Entrepreneurship",
     name: "John Smith",
-    image: "./picture/1.avif",
+    image:
+      "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
     city: "USA",
     area: "SAN FRANCISCO",
     jobtitle: "FOUNDER & CEO, TECHSTARTUP",

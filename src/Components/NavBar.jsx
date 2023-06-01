@@ -114,9 +114,9 @@ const NavBar = () => {
               : "opacity-0 scale-95 absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
           }
         >
-          <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
+          <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50 tex-black">
             <div className="pt-5 pb-6 px-5">
-              <div className="flex items-center justify-between">
+              <div className="flex items-center tex-black justify-between">
                 <div>
                   <img
                     className="h-8 w-auto"
@@ -127,7 +127,7 @@ const NavBar = () => {
                 <div className="-mr-2">
                   <button
                     type="button"
-                    className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                    className="bg-white tex-black rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
                     onClick={() => setOpen(!open)}
                   >
                     <span className="sr-only">Close menu</span>
@@ -154,7 +154,7 @@ const NavBar = () => {
                 <nav className="grid gap-y-8">
                   <a
                     href="#"
-                    className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
+                    className="-m-3 p-3 flex items-center text-darkblue rounded-md hover:bg-gray-50"
                   >
                     {/* Heroicon name: outline/chart-bar */}
                     <svg
@@ -172,13 +172,13 @@ const NavBar = () => {
                         d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
                       />
                     </svg>
-                    <span className="ml-3 text-base font-medium text-gray-900">
-                      Analytics
+                    <span className="ml-3 text-base tex-black font-medium ">
+                      Hiring
                     </span>
                   </a>
                   <a
-                    href="#"
-                    className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
+                    href="/testimonials"
+                    className="-m-3 p-3 text-darkblue  tex-black flex items-center rounded-md hover:bg-gray-50"
                   >
                     {/* Heroicon name: outline/cursor-click */}
                     <svg
@@ -196,13 +196,13 @@ const NavBar = () => {
                         d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"
                       />
                     </svg>
-                    <span className="ml-3 text-base font-medium text-gray-900">
-                      Engagement
+                    <span className="ml-3 text-darkblue text-base font-medium text-gray-900">
+                      Testimonials
                     </span>
                   </a>
                   <a
-                    href="#"
-                    className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
+                    href="/blogs"
+                    className="-m-3 p-3 text-darkblue flex items-center rounded-md hover:bg-gray-50"
                   >
                     {/* Heroicon name: outline/shield-check */}
                     <svg
@@ -221,12 +221,12 @@ const NavBar = () => {
                       />
                     </svg>
                     <span className="ml-3 text-base font-medium text-gray-900">
-                      Security
+                      Blogs
                     </span>
                   </a>
                   <a
-                    href="#"
-                    className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
+                    href="/findjob"
+                    className="-m-3 p-3 text-darkblue flex items-center rounded-md hover:bg-gray-50"
                   >
                     {/* Heroicon name: outline/view-grid */}
                     <svg
@@ -245,12 +245,12 @@ const NavBar = () => {
                       />
                     </svg>
                     <span className="ml-3 text-base font-medium text-gray-900">
-                      Integrations
+                      Find Job
                     </span>
                   </a>
                   <a
-                    href="#"
-                    className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
+                    href="/help"
+                    className="-m-3 p-3 text-darkblue flex items-center rounded-md hover:bg-gray-50"
                   >
                     {/* Heroicon name: outline/refresh */}
                     <svg
@@ -269,19 +269,19 @@ const NavBar = () => {
                       />
                     </svg>
                     <span className="ml-3 text-base font-medium text-gray-900">
-                      Automations
+                      Help
                     </span>
                   </a>
                 </nav>
               </div>
             </div>
             <div className="py-6 px-5 space-y-6">
-              <div className="grid grid-cols-2 gap-y-4 gap-x-8">
+              {/* <div className="grid grid-cols-2 gap-y-4 gap-x-8">
                 <a
                   href="#"
-                  className="text-base font-medium text-gray-900 hover:text-gray-700"
+                  className="text-base text-darkblue font-medium  hover:text-gray-700"
                 >
-                  Pricing
+                  Hiring
                 </a>
                 <a
                   href="#"
@@ -325,7 +325,7 @@ const NavBar = () => {
                 >
                   Events
                 </a>
-              </div>
+              </div> */}
               <div>
                 <a
                   href="#"
@@ -334,8 +334,11 @@ const NavBar = () => {
                   Sign up
                 </a>
                 <p className="mt-6 text-center text-base font-medium text-gray-500">
-                  Existing customer?
-                  <a href="#" className="text-indigo-600 hover:text-indigo-500">
+                  {/* Existing customer? */}
+                  <a
+                    href="/login"
+                    className="text-indigo-600 hover:text-indigo-500"
+                  >
                     Sign in
                   </a>
                 </p>

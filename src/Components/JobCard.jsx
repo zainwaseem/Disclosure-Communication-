@@ -18,23 +18,23 @@ function JobCard() {
         id="cars"
         onChange={(e) => setjob(e.target.value)}
         style={{ border: "2px solid black" }}
-        className="m-2 p-2  text-blue-400"
+        className="text-xs  text-blue-400"
       >
         {jobs.map((val) => {
           return <option value={val}>{val}</option>;
         })}
       </select>
-      <div className="bg-white py-24 sm:py-32">
+      <div className="bg-white py-2 sm:py-2">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           {
             <>
               <span>
-                <div className=" mt-5">
+                <div className=" mt-3">
                   <span className="relative  z-10 text-[#90DED4] rounded-full  px-3 py-1.5 font-medium ">
                     {job}
                   </span>
                 </div>
-                <div className="mx-auto mt-2    grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16  pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3  hover:border-gray-400">
+                <div className="mx-auto mt-2 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16  pt-10 sm:mt-6 sm:pt-6 lg:mx-0 lg:max-w-none lg:grid-cols-3  hover:border-gray-400">
                   {CrossOverData.map((post) => (
                     <article
                       key={post.id}
