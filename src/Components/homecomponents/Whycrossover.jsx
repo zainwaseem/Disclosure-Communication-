@@ -14,7 +14,7 @@ const Whycrossover = () => {
         <div className="whycrossever bg-gray-100 w-100 py-20">
           <div className="max-w-[1280px] mx-auto">
             <div className="relative lg:grid lg:grid-cols-1 lg:gap-8 lg:items-center">
-              <div className="ps-8 pb-8 p-5 lg:block">
+              <div className="pb-8  lg:block">
                 <div className="flex justify-between  items-center">
                   <h1 className="text-2xl font-bold">
                     Disclosure Communication
@@ -27,8 +27,8 @@ const Whycrossover = () => {
                     <BsArrowRightShort />
                   </Link>
                 </div>
-                <h1 className="text-6xl font-normal py-3 ">
-Lorem ipsum dolor sit amet consectetur.
+                <h1 className="text-3xl font-normal py-3 md:text-2xl">
+                  Lorem ipsum dolor sit amet consectetur.
                 </h1>
                 {/*
                 <p className="text-xl">
@@ -75,7 +75,9 @@ Lorem ipsum dolor sit amet consectetur.
 
                         <header class="flex items-center justify-between leading-tight p-2 md:p-4">
                           <p className="text-grey-darker text-sm">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, iure unde. Quod a quia quibusdam expedita necessitatibus laboriosam molestias? Omnis.
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Numquam, iure unde. Quod a quia quibusdam
+                            expedita necessitatibus laboriosam molestias? Omnis.
                           </p>
                         </header>
                       </article>
