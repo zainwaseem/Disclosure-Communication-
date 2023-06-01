@@ -177,7 +177,8 @@ const NavBar = () => {
                     </span>
                   </a>
                   <a
-                    href="/testimonials"
+                    // href="/testimonials"
+                    href=""
                     className="-m-3 p-3 text-darkblue  tex-black flex items-center rounded-md hover:bg-gray-50"
                   >
                     {/* Heroicon name: outline/cursor-click */}
@@ -197,7 +198,7 @@ const NavBar = () => {
                       />
                     </svg>
                     <span className="ml-3 text-darkblue text-base font-medium text-gray-900">
-                      Testimonials
+                      <a href="/testimonials">Testimonials</a>
                     </span>
                   </a>
                   <a
@@ -248,8 +249,8 @@ const NavBar = () => {
                       Find Job
                     </span>
                   </a>
-                  <a
-                    href="/help"
+                  <Link
+                    to="/help"
                     className="-m-3 p-3 text-darkblue flex items-center rounded-md hover:bg-gray-50"
                   >
                     {/* Heroicon name: outline/refresh */}
@@ -271,7 +272,7 @@ const NavBar = () => {
                     <span className="ml-3 text-base font-medium text-gray-900">
                       Help
                     </span>
-                  </a>
+                  </Link>
                 </nav>
               </div>
             </div>
